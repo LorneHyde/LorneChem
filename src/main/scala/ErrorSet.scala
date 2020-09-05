@@ -15,7 +15,7 @@ object ErrorSet {
   /** Merges the error messages from the temporary set of potential mistakes into the error set of definite
    * mistakes. Should only be called if there is no other explanation for the supposed mistakes in the temporary set */
   def mergePotentialMistakes(): Unit = {
-    mistakesSoFar.union(potentialMistakes)
+    mistakesSoFar = mistakesSoFar.union(potentialMistakes)
     potentialMistakes = mutable.Set()
   }
 
