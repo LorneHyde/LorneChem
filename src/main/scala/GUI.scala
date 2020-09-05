@@ -183,7 +183,7 @@ protected class ChemGUIClass extends SimpleSwingApplication {
 
         override def successfulResponse: Unit = {
           val mass: Double = ChemFormula(formula.text).mass
-          text = wrapInHTML(formula.text + " has formula mass " + ChemDisplayFuncs.roundSF(mass, Settings.sigFig))
+          text = wrapInHTML(ChemFormula(formula.text) + " has formula mass " + ChemDisplayFuncs.roundSF(mass, Settings.sigFig))
         }
       }
       contents += formula
