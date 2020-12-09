@@ -1,9 +1,7 @@
 # LorneChem
 This is a desktop app for basic chemistry calculations. Currently, it features an equation balancer, a formula mass
 calculator, and a percentage by mass calculator.
-## Recent Updates
-Check this part of the page to quickly see which features have been added. Currently, no new features have been added, 
-since I only just add this project to GitHub.
+
 ## Background
 LorneChem started as my quarantine project during 2020. It started as a chance for me to practice writing GUIs 
 and structuring my code, but it grew to be a larger application. My focus is to make it as user-friendly as possible, 
